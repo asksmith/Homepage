@@ -38,7 +38,7 @@
     background-color:rgba(255,255,255,0.7);
 }
 .sectionTitle input[type="text"]{
-    width: 30em;
+    width: 220px;
 }
 .sectionContent{
     display: flex;
