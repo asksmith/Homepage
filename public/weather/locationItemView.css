@@ -1,0 +1,86 @@
+.location{
+    background-size:cover;
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 2px black;
+    display: block;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+}
+
+.location .icons{
+    display:flex;
+    height: 20px;
+    margin: 0px;
+    padding: 10px 10px 5px 10px;
+    background-color: rgba(255,235,250,0.8);
+    border-radius:20px 20px 0px 0px;
+    list-style-type:none;
+    justify-content:center;
+    align-items:center;
+}
+
+.location .temperature{
+    margin-top: 20px;
+    height: 40px;
+    font-size: 40px;
+    padding: 0em;
+    font-weight:bold;
+    text-transform: uppercase;
+    text-shadow: 2px 1px black;
+    text-align:center;
+}
+
+.location .title{
+    display: flex;
+    font-size: 20px;
+    cursor:pointer;
+    height: 80px;
+    font-weight:bold;
+    text-transform: uppercase;
+    text-shadow: 2px 1px black;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+}
+
+.location .remove{
+    background-color: black;
+    border-radius:0px 0px 20px 20px;
+    height: 25px;
+    font-family: Arial;
+    font-size: 12px;
+    cursor:pointer;
+    text-align:center;
+    line-height: 25px;
+    vertical-align: supper;
+    text-transform: lowercase;
+}
+
+.location .icons .countryFlag{
+    margin-right: 5px;
+    line-height: 18px;
+}
+.location .icons li{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px 2px;
+}
+
+.location .windspeed{
+    margin-left: 5px;
+    margin-right:5px;
+    margin-top:5px;
+}
+.location .windspeed .icon{
+    display:inline-block;
+}
+.location .windspeed .text{
+    display:inline-block;
+    color:black;
+    margin-left: 5px;
+}
+

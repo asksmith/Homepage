@@ -1,0 +1,99 @@
+.sunny{
+    width: 20px;
+    height: 20px;
+    background-image: url('/public/weather/icons/sunny1.png'); 
+    background-size:cover;
+}
+.sunny.heavy{
+    background-image: url('/public/weather/icons/sunny2.png'); 
+}
+
+.cloud{
+    width: 20px;
+    height: 20px;
+    background-image: url('/public/weather/icons/cloud1.png'); 
+    background-size:cover;
+}
+.cloud.heavy{
+    background-image: url('/public/weather/icons/cloud2.png'); 
+}
+
+.fog{
+    width: 20px;
+    height: 20px;
+    background-image: url('/public/weather/icons/fog1.png'); 
+    background-size:cover;
+}
+.fog.heavy{
+    background-image: url('/public/weather/icons/fog2.png'); 
+}
+
+.rainly {
+    width: 20px;
+    height: 20px;
+    background-image: url('/public/weather/icons/rain1.png'); 
+    background-size:cover;
+}
+.rainly.heavy{
+    background-image: url('/public/weather/icons/rain2.png'); 
+}
+
+.drizzle {
+    width: 20px;
+    height: 20px;
+    background-image: url('/public/weather/icons/drizzle1.png'); 
+    background-size:cover;
+}
+.drizzle.heavy{
+    background-image: url('/public/weather/icons/drizzle2.png'); 
+}
+
+.snow{
+    width: 20px;
+    height: 20px;
+    background-image: url('/public/weather/icons/snow1.png'); 
+    background-size:cover;
+}
+.snow.heavy{
+    background-image: url('/public/weather/icons/snow2.png'); 
+}
+
+.snowfall{
+    width: 20px;
+    height: 20px;
+    background-image: url('/public/weather/icons/snowfall1.png'); 
+    background-size:cover;
+}
+.snowfall.heavy{
+    background-image: url('/public/weather/icons/snowfall2.png'); 
+}
+
+.grain{
+    width: 20px;
+    height: 20px;
+    background-image: url('/public/weather/icons/grain1.png'); 
+    background-size:cover;
+}
+.grain.heavy{
+    background-image: url('/public/weather/icons/grain2.png'); 
+}
+
+.wind{
+    width: 20px;
+    height: 20px;
+    background-image: url('/public/weather/icons/wind1.png'); 
+    background-size:cover;
+}
+.wind.heavy{
+    background-image: url('/public/weather/icons/wind2.png'); 
+}
+
+.thunder{
+    width: 20px;
+    height: 20px;
+    background-image: url('/public/weather/icons/thunder1.png'); 
+    background-size:cover;
+}
+.thunder.heavy{
+    background-image: url('/public/weather/icons/thunder2.png'); 
+}

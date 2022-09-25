@@ -1,0 +1,51 @@
+#welcomepage{
+    width: 100%;
+    margin: 0 auto;
+    display:flex;
+}
+#weather-section{
+    width: 50%;
+}
+#bookmark-section{
+    width:50%;
+}
+
+.sectionTitle{
+    border-radius: 20px;
+    background-color: grey;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    margin:0 10px;
+    font-size: 15px;
+    font-style:italic;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+.sectionTitle b{
+    display: block;
+    font-weight: normal;
+    font-style:normal;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.sectionTitle input {
+    display: inline-block;
+    border: 1px solid rgb(200,200,200);
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin:0em;
+    margin-top: 5px;
+    background-color:rgba(255,255,255,0.7);
+}
+.sectionTitle input[type="text"]{
+    width: 30em;
+}
+.sectionContent{
+    display: flex;
+    flex-wrap:wrap;
+    padding: 20px 0px;
+    row-gap: 20px;
+    column-gap: 10px;
+    justify-content: space-evenly;
+}
+
