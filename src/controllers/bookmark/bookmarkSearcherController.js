@@ -1,4 +1,4 @@
-import { addBookmarkItem } from "../../helpers/storage.js"
+import { addBookmarkItem, delBookmarkItem } from "../../helpers/storage.js"
 import { bindBookmarkItemView } from "../../binders/bookmark/bindBookmarkItemView.js"
 import { getBookmarkItemView } from "../../views/bookmark/getBookmarkItemView.js"
 import { isValidURL } from "../../helpers/bookmark/isValidURL.js"
