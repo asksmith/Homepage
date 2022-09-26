@@ -8,7 +8,7 @@ import {bindBookmarkItemView} from './binders/bookmark/bindBookmarkItemView.js';
 import {bindLocationSearcherView} from './binders/weather/bindLocationSearcherView.js';
 import {bindBookmarkSearcherView} from './binders/bookmark/bindBookmarkSearcherView.js';
 
-function main(){
+async function main(){
     const locations=getWeatherLocations();
     getLocationSearcherView().then((element)=>{
         bindLocationSearcherView(element)
@@ -27,7 +27,17 @@ function main(){
             bindBookmarkItemView(element);
         })
     })
-
+    return true;
 }
 
-window.addEventListener('load',main);
+window.addEventListener('load',() =>{
+    const page=document.querySelector('#welcomepage');
+    const loader=document.querySelector('#welcomepage-loader');
+    main().then(()=>{
+        loader.style.display='none';
+        page.style.display='flex';
+    });
+});
+
+/*
+*/
