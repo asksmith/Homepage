@@ -7,7 +7,6 @@ import {bindLocationItemView} from './binders/weather/bindLocationItemView.js';
 import {bindBookmarkItemView} from './binders/bookmark/bindBookmarkItemView.js';
 import {bindLocationSearcherView} from './binders/weather/bindLocationSearcherView.js';
 import {bindBookmarkSearcherView} from './binders/bookmark/bindBookmarkSearcherView.js';
-import {getDescriptionByBookmark} from './helpers/bookmark/getDescriptionByBookmark.js';
 
 function main(){
     const locations=getWeatherLocations();
